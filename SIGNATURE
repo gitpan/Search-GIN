@@ -16,14 +16,14 @@ Hash: SHA1
 
 SHA1 70b5013187eef20b44d0bde66da9c658c8052883 MANIFEST
 SHA1 190e9058eb9c6446a1a3f3ddf15b082f1ecde152 MANIFEST.SKIP
-SHA1 13558e72d5662e0723914c0c64140ce99844f467 META.yml
+SHA1 1cdc41f0faded922b24e0ed878e14868be0837d6 META.yml
 SHA1 5f1e0f865b697a245db203e54249ad6547040946 Makefile.PL
-SHA1 8ee8c3e1626809fab40ac1ceb44dbd96c0cd71ab lib/Search/GIN.pm
+SHA1 f85b6236109f7620b934fde4c24ead71d19f9afb lib/Search/GIN.pm
 SHA1 f0716b53b0e5fb920f5110b340f712923375a9ce lib/Search/GIN/Callbacks.pm
 SHA1 40890a8eda7a6376352725caef4bf6f639e97d81 lib/Search/GIN/Core.pm
 SHA1 e18e51f98c889704f86653a0e329ad739150b55c lib/Search/GIN/DelegateToIndexed.pm
 SHA1 f20838baeb958044ebd2672331801fa65c58d9b5 lib/Search/GIN/Driver.pm
-SHA1 7d4c43afc52446506afdde16e3dc4dab6e3ab1d6 lib/Search/GIN/Driver/Hash.pm
+SHA1 e54cf4f18644445d03a3068f54f99c4e4eb8fd9d lib/Search/GIN/Driver/Hash.pm
 SHA1 ab00eef4512e693eb5ff757106b5c444d2959a5c lib/Search/GIN/Driver/Pack.pm
 SHA1 b1284f45f183e0c280228c792e608d73ae2fb950 lib/Search/GIN/Driver/Pack/Delim.pm
 SHA1 ed5031536a7d6b2b3015adf15b8a221a99bca4cf lib/Search/GIN/Driver/Pack/IDs.pm
@@ -55,7 +55,7 @@ SHA1 80af19b3a05acc4a5f4edc0ccbfc09d16e9e81d2 t/rels.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.7 (Darwin)
 
-iD8DBQFI8O8+VCwRwOvSdBgRAt7jAJ4sv/9lfPqj80Xf4MIAPzhfJOOc6ACcC/zr
-ON1+xztwZza0b3yvtrqXCic=
-=ZLeq
+iD8DBQFJCqNPVCwRwOvSdBgRAtQqAKCBmdNVQrbR+5UYG+ZjwlmiqbjiyQCfXCeb
+KwxNhOj0fYNPfxun/bgxSDQ=
+=VNyI
 -----END PGP SIGNATURE-----
