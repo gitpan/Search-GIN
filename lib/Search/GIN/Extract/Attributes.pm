@@ -21,7 +21,10 @@ sub extract_values {
 
     my @meta_attrs = $self->get_meta_attrs($obj, @args);
 
-    return $self->process_keys({ map { $_->name => $_->get_value($obj) } @meta_attrs });
+    return $self->process_keys({ map {
+                                    my $val = $_->get_value($obj);
+                                    $_->name => (defined($val) ? $val : undef);
+                                } @meta_attrs });
 }
 
 sub get_meta_attrs {
@@ -33,7 +36,7 @@ sub get_meta_attrs {
     if ( $self->has_attributes ) {
         return grep { defined } map { $meta->find_attribute_by_name($_) } @{ $self->attributes };
     } else {
-        return $meta->compute_all_applicable_attributes;
+        return $meta->get_all_attributes;
     }
 }
 
