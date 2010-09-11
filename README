@@ -1,0 +1,31 @@
+NAME
+    Search::GIN - Generalized Inverted Indexing
+
+VERSION
+    version 0.05
+
+DESCRIPTION
+    Inverted Indexing is an indexing method that maps from content to
+    location in storage.
+
+    Generalized Inverted Indexing (GIN, for short) is an inverted indexing
+    method in which the index is unaware of what data exactly is it
+    indexing.
+
+    Search::GIN is primarily used by KiokuDB for custom indexing.
+
+SEE ALSO
+    *   pgsql-hackers msg #00960
+
+    *   Inverted_index on Wikipedia
+
+AUTHOR
+      Yuval Kogman <nothingmuch@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2010 by Yuval Kogman, Infinity
+    Interactive.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

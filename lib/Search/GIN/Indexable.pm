@@ -1,6 +1,11 @@
-#!/usr/bin/perl
-
+use strict;
+use warnings;
 package Search::GIN::Indexable;
+BEGIN {
+  $Search::GIN::Indexable::VERSION = '0.05';
+}
+# ABSTRACT:
+
 use Moose::Role;
 
 requires 'gin_extract_values';
@@ -20,15 +25,19 @@ sub gin_consistent {
     $query->gin_consistent($index, $self, @args);
 }
 
-__PACKAGE__
+1;
 
-__END__
+
 
 =pod
 
 =head1 NAME
 
-Search::GIN::Indexable - 
+Search::GIN::Indexable - use Moose::Role;
+
+=head1 VERSION
+
+version 0.05
 
 =head1 SYNOPSIS
 
@@ -36,6 +45,19 @@ Search::GIN::Indexable -
 
 =head1 DESCRIPTION
 
+=head1 AUTHOR
+
+  Yuval Kogman <nothingmuch@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2010 by Yuval Kogman, Infinity Interactive.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
 =cut
 
+
+__END__
 

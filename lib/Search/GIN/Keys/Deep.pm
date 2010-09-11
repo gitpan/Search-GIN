@@ -1,8 +1,12 @@
-#!/usr/bin/perl
-
+use strict;
+use warnings;
 package Search::GIN::Keys::Deep;
-use Moose::Role;
+BEGIN {
+  $Search::GIN::Keys::Deep::VERSION = '0.05';
+}
+# ABSTRACT:
 
+use Moose::Role;
 use namespace::clean -except => 'meta';
 
 with qw(
@@ -17,15 +21,19 @@ sub process_keys {
     $self->join_keys( $self->expand_keys(@keys) );
 }
 
-__PACKAGE__
+1;
 
-__END__
+
 
 =pod
 
 =head1 NAME
 
-Search::GIN::Keys::Deep - 
+Search::GIN::Keys::Deep - use Moose::Role;
+
+=head1 VERSION
+
+version 0.05
 
 =head1 SYNOPSIS
 
@@ -33,6 +41,19 @@ Search::GIN::Keys::Deep -
 
 =head1 DESCRIPTION
 
+=head1 AUTHOR
+
+  Yuval Kogman <nothingmuch@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2010 by Yuval Kogman, Infinity Interactive.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
 =cut
 
+
+__END__
 

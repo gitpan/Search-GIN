@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.61.
+signed via the Module::Signature module, version 0.66.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,49 +14,54 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 3b05c08d53a36c79c5b552007254f473fdabc110 Changes
-SHA1 3295a00e24571d07b934f60c6577dd7a992d1829 MANIFEST
-SHA1 190e9058eb9c6446a1a3f3ddf15b082f1ecde152 MANIFEST.SKIP
-SHA1 29a990f33c2d5fec829ad4d306450573c86f44f7 META.yml
-SHA1 5f1e0f865b697a245db203e54249ad6547040946 Makefile.PL
-SHA1 bee3ebc4ad4d9fa3d0d3b992d798f652b0a75123 lib/Search/GIN.pm
-SHA1 f0716b53b0e5fb920f5110b340f712923375a9ce lib/Search/GIN/Callbacks.pm
-SHA1 40890a8eda7a6376352725caef4bf6f639e97d81 lib/Search/GIN/Core.pm
-SHA1 e18e51f98c889704f86653a0e329ad739150b55c lib/Search/GIN/DelegateToIndexed.pm
-SHA1 f20838baeb958044ebd2672331801fa65c58d9b5 lib/Search/GIN/Driver.pm
-SHA1 e54cf4f18644445d03a3068f54f99c4e4eb8fd9d lib/Search/GIN/Driver/Hash.pm
-SHA1 ab00eef4512e693eb5ff757106b5c444d2959a5c lib/Search/GIN/Driver/Pack.pm
-SHA1 b1284f45f183e0c280228c792e608d73ae2fb950 lib/Search/GIN/Driver/Pack/Delim.pm
-SHA1 ed5031536a7d6b2b3015adf15b8a221a99bca4cf lib/Search/GIN/Driver/Pack/IDs.pm
-SHA1 989c4ed53a64718b2020ddcc813ac7acfb283207 lib/Search/GIN/Driver/Pack/Length.pm
-SHA1 ec109e404203dda9e193e939e0ec14efcac8b9cc lib/Search/GIN/Driver/Pack/UUID.pm
-SHA1 07d56e6ce02b50dd78a9f7f6d9687fc67eb17aac lib/Search/GIN/Driver/Pack/Values.pm
-SHA1 ffdbe05b270141e108e06727fcba324246665dc8 lib/Search/GIN/Driver/TXN.pm
-SHA1 b016ba392f6d61c02e16da13986c98a468ad4e3a lib/Search/GIN/Extract.pm
-SHA1 dcc5b8771bf0a387f5f417bc2aa87196e2e0b361 lib/Search/GIN/Extract/Attributes.pm
-SHA1 f093a56d9218702b93dd150f8e5797d61f33db9d lib/Search/GIN/Extract/Callback.pm
-SHA1 22c9843de03fd1dc3788f541b8f31ab247a0d6c5 lib/Search/GIN/Extract/Class.pm
-SHA1 a636661e7f714ffabd02c47fca5b4c060f9c2b43 lib/Search/GIN/Extract/Delegate.pm
-SHA1 bdfaab429f1590abd84f45ef7d89259798b57931 lib/Search/GIN/Extract/Multiplex.pm
-SHA1 dc1e65a9c0dcf5c32fd3cea19cb9e56d92581b0f lib/Search/GIN/Indexable.pm
-SHA1 36b229bfad94f47cf10f8f105798a3751f1844e8 lib/Search/GIN/Keys.pm
-SHA1 69052354b343dbf0dbf9923f6f080d50db84eed2 lib/Search/GIN/Keys/Deep.pm
-SHA1 0e204be979a20d4597f8101a50d47fc6a8e0addc lib/Search/GIN/Keys/Expand.pm
-SHA1 6fa85a6152c315d8c8ab94887cb619a2fb20e7f9 lib/Search/GIN/Keys/Join.pm
-SHA1 e05ca9686dd17a1ec2e1be3800e46652670c14f4 lib/Search/GIN/Query.pm
-SHA1 52ceea3b51ab3a4a6c13767176656ba0fe208430 lib/Search/GIN/Query/Attributes.pm
-SHA1 07255c95f170e68a1d2f19dcbb677b3d16d93781 lib/Search/GIN/Query/Class.pm
-SHA1 8028fe3ab402d002a54fc9a20d4dc79fed84ce08 lib/Search/GIN/Query/Manual.pm
-SHA1 5dc0adcdc75947aa74a5dee636aa3f48cdca3e4a lib/Search/GIN/SelfIDs.pm
+SHA1 1fb4ad58e67fdfea06a67725d8b9db2629186c1e Changes
+SHA1 50ecb593d89009632b02a2b0d65f62a95bfa51d3 LICENSE
+SHA1 17cc4bcb0150e25d6914dacd80a58bd40e06d042 MANIFEST
+SHA1 2da06632f85cd65519a5486f614ea1db70e6b7da META.yml
+SHA1 1581e7a83e7b532f71bb13c4f4677eb532ef52d6 Makefile.PL
+SHA1 f39855da07057364e45a94216722c5816e0a3cbf README
+SHA1 f289af098c5b83cd3a18acd9a65eb20e39c3c01c dist.ini
+SHA1 e4461f67557f61461fbf87cb48b3fbe6bebb7286 lib/Search/GIN.pm
+SHA1 7335633a2182adc14ab081abd2c1e84291d0d863 lib/Search/GIN/Callbacks.pm
+SHA1 3728a93e676d1fb2e304776045652d48e53e866f lib/Search/GIN/Core.pm
+SHA1 e4e8a3f54263c1404abf65978459f90f96b0ddda lib/Search/GIN/DelegateToIndexed.pm
+SHA1 916998046c7fe8579527a16a3f6709a36c67055d lib/Search/GIN/Driver.pm
+SHA1 64b41bd26ae6fcdc1a18af7b5f3beaf1a4ebbba5 lib/Search/GIN/Driver/Hash.pm
+SHA1 5aadf27435761de9113fa65345c44e02bfbaf742 lib/Search/GIN/Driver/Pack.pm
+SHA1 c50483158f2c4e0d0f67a803dc504f10611b2565 lib/Search/GIN/Driver/Pack/Delim.pm
+SHA1 88aa43a6f2f9fddae2891b157b92207c91113559 lib/Search/GIN/Driver/Pack/IDs.pm
+SHA1 dd5af98d85caeac05c95c1cc4419c9eaac1ef7c9 lib/Search/GIN/Driver/Pack/Length.pm
+SHA1 771e24c29bcdb1c08b8dfd8d0422f6d8f76855a3 lib/Search/GIN/Driver/Pack/UUID.pm
+SHA1 33d7f8260dad3dab2e6fa6ac27cd2e4362dd65f8 lib/Search/GIN/Driver/Pack/Values.pm
+SHA1 57a2207bcfa682ddd0787530dc8532d6e6e142fe lib/Search/GIN/Driver/TXN.pm
+SHA1 36fd28be68e8d74eb46a768588961f7d4f8d8416 lib/Search/GIN/Extract.pm
+SHA1 b27b4ab78b013ed89b5f329168d9164e2b5b87f5 lib/Search/GIN/Extract/Attributes.pm
+SHA1 075c266db5576ccdec4d4d5d60d311e736e8c751 lib/Search/GIN/Extract/Callback.pm
+SHA1 a18a1a0da57a71ceaa50617fe2af6b69ffcb0d6f lib/Search/GIN/Extract/Class.pm
+SHA1 1ad75886bc8281784d7b7cc59c2e8936be940b7b lib/Search/GIN/Extract/Delegate.pm
+SHA1 e02a40ba3ab83bda281ad01e26bb217b6f333054 lib/Search/GIN/Extract/Multiplex.pm
+SHA1 2c290131ba3da236387a8c6a6b8270581ed92bdd lib/Search/GIN/Indexable.pm
+SHA1 56d43449382c50ce47ec9c07004d1bb48816db88 lib/Search/GIN/Keys.pm
+SHA1 673e246708493dc96b1e8c159151c34f99aaea11 lib/Search/GIN/Keys/Deep.pm
+SHA1 ebd75109422008d5d0f76b90cddd6a5749554e67 lib/Search/GIN/Keys/Expand.pm
+SHA1 ce39e31e422ace4253272f356ca3f46a78ab8413 lib/Search/GIN/Keys/Join.pm
+SHA1 2b7bab9314a60284681cf74354d79462eb47a6a1 lib/Search/GIN/Query.pm
+SHA1 9ccf7705f913f856ab141a840b81c3f526ac416b lib/Search/GIN/Query/Attributes.pm
+SHA1 6b86dae573b5f8e4d7c16548b5d97b032c7f9fd2 lib/Search/GIN/Query/Class.pm
+SHA1 766022b36a5a83857f1c059d0b139ecd1747ff14 lib/Search/GIN/Query/Manual.pm
+SHA1 ffcb861437315870afae0005a2545bfb47f63ce9 lib/Search/GIN/SelfIDs.pm
+SHA1 02e939e7e8ea503b21631554cadf68097815d778 output.log
+SHA1 fdbf056605ebe56f7d39ab3edd8ffebfc980d52f t/00-compile.t
 SHA1 34985efc8abdc6708e03685b0e0d1cd2f44d3e8a t/attrs.t
 SHA1 de5d11d75733971d58ef65c1914a28c4447ef718 t/class.t
-SHA1 2def6830b97af6ccd50234508da1c3b2b446676d t/core.t
+SHA1 56d443eacec61605f709735fe5d64a82e1d57418 t/core.t
 SHA1 ea981bb39d6702edd7a0e2500a2f702ffe7b938a t/key_expansion.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
 SHA1 80af19b3a05acc4a5f4edc0ccbfc09d16e9e81d2 t/rels.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.9 (GNU/Linux)
+Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkuPpCcACgkQepC8e2JS8ecDQgCgibrd6LrJkh6B4JnriC0ErUtz
-7vcAn3hiT5qYevymjitku6hI/h5GY/k+
-=2tRH
+iEYEARECAAYFAkyLYwEACgkQepC8e2JS8ec9vgCgr/RaARZiEZXiQho/gHCHSkfz
+9KAAn1z1NgT64TTAKprgJCBBISwMZNh4
+=EnoZ
 -----END PGP SIGNATURE-----

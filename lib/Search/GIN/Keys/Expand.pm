@@ -1,10 +1,13 @@
-#!/usr/bin/perl
-
+use strict;
+use warnings;
 package Search::GIN::Keys::Expand;
+BEGIN {
+  $Search::GIN::Keys::Expand::VERSION = '0.05';
+}
+# ABSTRACT:
+
 use Moose::Role;
-
 use Carp qw(croak);
-
 use namespace::clean -except => 'meta';
 
 sub expand_keys {
@@ -50,6 +53,32 @@ sub expand_keys_hash {
     } keys %$hash;
 }
 
-__PACKAGE__
+1;
+
+
+
+=pod
+
+=head1 NAME
+
+Search::GIN::Keys::Expand - use Moose::Role;
+
+=head1 VERSION
+
+version 0.05
+
+=head1 AUTHOR
+
+  Yuval Kogman <nothingmuch@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2010 by Yuval Kogman, Infinity Interactive.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
+
 
 __END__

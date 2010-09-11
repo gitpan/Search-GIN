@@ -1,4 +1,11 @@
 Changes
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+SIGNATURE
+dist.ini
 lib/Search/GIN.pm
 lib/Search/GIN/Callbacks.pm
 lib/Search/GIN/Core.pm
@@ -28,13 +35,11 @@ lib/Search/GIN/Query/Attributes.pm
 lib/Search/GIN/Query/Class.pm
 lib/Search/GIN/Query/Manual.pm
 lib/Search/GIN/SelfIDs.pm
-Makefile.PL
-MANIFEST			This list of files
-MANIFEST.SKIP
+output.log
+t/00-compile.t
 t/attrs.t
 t/class.t
 t/core.t
 t/key_expansion.t
+t/release-pod-syntax.t
 t/rels.t
-META.yml                                 Module meta-data (added by MakeMaker)
-SIGNATURE                                Public-key signature (added by MakeMaker)

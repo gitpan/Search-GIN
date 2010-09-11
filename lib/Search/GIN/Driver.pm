@@ -1,6 +1,11 @@
-#!/usr/bin/perl
-
+use strict;
+use warnings;
 package Search::GIN::Driver;
+BEGIN {
+  $Search::GIN::Driver::VERSION = '0.05';
+}
+# ABSTRACT:
+
 use Moose::Role;
 
 use Data::Stream::Bulk::Util qw(bulk nil cat unique);
@@ -76,15 +81,19 @@ sub fetch_entries_all {
     return bulk( grep { $seen{$_} == $n } $last->all );
 }
 
-__PACKAGE__
+1;
 
-__END__
+
 
 =pod
 
 =head1 NAME
 
-Search::GIN::Driver - 
+Search::GIN::Driver - use Moose::Role;
+
+=head1 VERSION
+
+version 0.05
 
 =head1 SYNOPSIS
 
@@ -92,6 +101,19 @@ Search::GIN::Driver -
 
 =head1 DESCRIPTION
 
+=head1 AUTHOR
+
+  Yuval Kogman <nothingmuch@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2010 by Yuval Kogman, Infinity Interactive.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
 =cut
 
+
+__END__
 
