@@ -30,4 +30,4 @@ requires:
   Set::Object: 0
   Test::Deep::NoTest: 0
   namespace::clean: 0
-version: 0.05
+version: 0.06

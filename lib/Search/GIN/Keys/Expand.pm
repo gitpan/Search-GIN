@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Keys::Expand;
 BEGIN {
-  $Search::GIN::Keys::Expand::VERSION = '0.05';
+  $Search::GIN::Keys::Expand::VERSION = '0.06';
 }
 # ABSTRACT:
 
@@ -65,7 +65,7 @@ Search::GIN::Keys::Expand - use Moose::Role;
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 AUTHOR
 

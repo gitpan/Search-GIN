@@ -35,7 +35,6 @@ lib/Search/GIN/Query/Attributes.pm
 lib/Search/GIN/Query/Class.pm
 lib/Search/GIN/Query/Manual.pm
 lib/Search/GIN/SelfIDs.pm
-output.log
 t/00-compile.t
 t/attrs.t
 t/class.t

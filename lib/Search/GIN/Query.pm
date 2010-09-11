@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Query;
 BEGIN {
-  $Search::GIN::Query::VERSION = '0.05';
+  $Search::GIN::Query::VERSION = '0.06';
 }
 # ABSTRACT:
 
@@ -26,7 +26,7 @@ Search::GIN::Query - use Moose::Role;
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 SYNOPSIS
 

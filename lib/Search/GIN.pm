@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN;
 BEGIN {
-  $Search::GIN::VERSION = '0.05';
+  $Search::GIN::VERSION = '0.06';
 }
 # ABSTRACT: Generalized Inverted Indexing
 
@@ -18,7 +18,7 @@ Search::GIN - Generalized Inverted Indexing
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 DESCRIPTION
 

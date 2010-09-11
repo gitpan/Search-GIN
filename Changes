@@ -1,3 +1,6 @@
+0.06    11.09.10
+    - Whoops, missed a debug output
+
 0.05    11.09.10
     - Adding a bit more docs
     - Moved to Dist::Zilla

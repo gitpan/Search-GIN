@@ -14,43 +14,42 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 1fb4ad58e67fdfea06a67725d8b9db2629186c1e Changes
+SHA1 e1c8003038c87a36f055612e4cc4a57d7b2b0024 Changes
 SHA1 50ecb593d89009632b02a2b0d65f62a95bfa51d3 LICENSE
-SHA1 17cc4bcb0150e25d6914dacd80a58bd40e06d042 MANIFEST
-SHA1 2da06632f85cd65519a5486f614ea1db70e6b7da META.yml
-SHA1 1581e7a83e7b532f71bb13c4f4677eb532ef52d6 Makefile.PL
-SHA1 f39855da07057364e45a94216722c5816e0a3cbf README
-SHA1 f289af098c5b83cd3a18acd9a65eb20e39c3c01c dist.ini
-SHA1 e4461f67557f61461fbf87cb48b3fbe6bebb7286 lib/Search/GIN.pm
-SHA1 7335633a2182adc14ab081abd2c1e84291d0d863 lib/Search/GIN/Callbacks.pm
-SHA1 3728a93e676d1fb2e304776045652d48e53e866f lib/Search/GIN/Core.pm
-SHA1 e4e8a3f54263c1404abf65978459f90f96b0ddda lib/Search/GIN/DelegateToIndexed.pm
-SHA1 916998046c7fe8579527a16a3f6709a36c67055d lib/Search/GIN/Driver.pm
-SHA1 64b41bd26ae6fcdc1a18af7b5f3beaf1a4ebbba5 lib/Search/GIN/Driver/Hash.pm
-SHA1 5aadf27435761de9113fa65345c44e02bfbaf742 lib/Search/GIN/Driver/Pack.pm
-SHA1 c50483158f2c4e0d0f67a803dc504f10611b2565 lib/Search/GIN/Driver/Pack/Delim.pm
-SHA1 88aa43a6f2f9fddae2891b157b92207c91113559 lib/Search/GIN/Driver/Pack/IDs.pm
-SHA1 dd5af98d85caeac05c95c1cc4419c9eaac1ef7c9 lib/Search/GIN/Driver/Pack/Length.pm
-SHA1 771e24c29bcdb1c08b8dfd8d0422f6d8f76855a3 lib/Search/GIN/Driver/Pack/UUID.pm
-SHA1 33d7f8260dad3dab2e6fa6ac27cd2e4362dd65f8 lib/Search/GIN/Driver/Pack/Values.pm
-SHA1 57a2207bcfa682ddd0787530dc8532d6e6e142fe lib/Search/GIN/Driver/TXN.pm
-SHA1 36fd28be68e8d74eb46a768588961f7d4f8d8416 lib/Search/GIN/Extract.pm
-SHA1 b27b4ab78b013ed89b5f329168d9164e2b5b87f5 lib/Search/GIN/Extract/Attributes.pm
-SHA1 075c266db5576ccdec4d4d5d60d311e736e8c751 lib/Search/GIN/Extract/Callback.pm
-SHA1 a18a1a0da57a71ceaa50617fe2af6b69ffcb0d6f lib/Search/GIN/Extract/Class.pm
-SHA1 1ad75886bc8281784d7b7cc59c2e8936be940b7b lib/Search/GIN/Extract/Delegate.pm
-SHA1 e02a40ba3ab83bda281ad01e26bb217b6f333054 lib/Search/GIN/Extract/Multiplex.pm
-SHA1 2c290131ba3da236387a8c6a6b8270581ed92bdd lib/Search/GIN/Indexable.pm
-SHA1 56d43449382c50ce47ec9c07004d1bb48816db88 lib/Search/GIN/Keys.pm
-SHA1 673e246708493dc96b1e8c159151c34f99aaea11 lib/Search/GIN/Keys/Deep.pm
-SHA1 ebd75109422008d5d0f76b90cddd6a5749554e67 lib/Search/GIN/Keys/Expand.pm
-SHA1 ce39e31e422ace4253272f356ca3f46a78ab8413 lib/Search/GIN/Keys/Join.pm
-SHA1 2b7bab9314a60284681cf74354d79462eb47a6a1 lib/Search/GIN/Query.pm
-SHA1 9ccf7705f913f856ab141a840b81c3f526ac416b lib/Search/GIN/Query/Attributes.pm
-SHA1 6b86dae573b5f8e4d7c16548b5d97b032c7f9fd2 lib/Search/GIN/Query/Class.pm
-SHA1 766022b36a5a83857f1c059d0b139ecd1747ff14 lib/Search/GIN/Query/Manual.pm
-SHA1 ffcb861437315870afae0005a2545bfb47f63ce9 lib/Search/GIN/SelfIDs.pm
-SHA1 02e939e7e8ea503b21631554cadf68097815d778 output.log
+SHA1 cd934c4ea928c2e361e4cbaf50851c91b81e9326 MANIFEST
+SHA1 f7bf105d35a07c7ff26966eb69cf0296292e0d0e META.yml
+SHA1 2045a3e35174e5bf6838355db5f6835f34202845 Makefile.PL
+SHA1 bbcf4bf85030bdf0bc26721dfbf31860cc698d28 README
+SHA1 8eed10c840f984bb4a99a34b6bdad68887b29a5c dist.ini
+SHA1 04354a4c609485f35a03dd51791e4143d6272cb6 lib/Search/GIN.pm
+SHA1 990bdc5a4949841e559caa8c71bfe78717f12574 lib/Search/GIN/Callbacks.pm
+SHA1 a0284348fef46843478dafdd46efdffc04714721 lib/Search/GIN/Core.pm
+SHA1 e51dffee8b940384d5f32ee22a30bac1e11d3b62 lib/Search/GIN/DelegateToIndexed.pm
+SHA1 de94f3e64b48c9c82506dd4e5018f971fc92a3c2 lib/Search/GIN/Driver.pm
+SHA1 98de30e180c6358131b2ae96de4edf88030823ef lib/Search/GIN/Driver/Hash.pm
+SHA1 545af5ebfd2a569ed9cfbe31dcab6341e7d4032b lib/Search/GIN/Driver/Pack.pm
+SHA1 959cb7ffc1f472cbf038f585a1cc31b2d0ad0176 lib/Search/GIN/Driver/Pack/Delim.pm
+SHA1 d4e3aac8b1dc189648bad41a3d290c972160a123 lib/Search/GIN/Driver/Pack/IDs.pm
+SHA1 96e9908594bce8637dd35c391ed27efd969db391 lib/Search/GIN/Driver/Pack/Length.pm
+SHA1 a72a9c70315e438d440d63baa6fa865b07f864b0 lib/Search/GIN/Driver/Pack/UUID.pm
+SHA1 7ca0dd95a7b55b34623e0d062a6ac8fc42a9cab6 lib/Search/GIN/Driver/Pack/Values.pm
+SHA1 7da087859b834b4e267335433eaf909cf465dafd lib/Search/GIN/Driver/TXN.pm
+SHA1 5541e0692b49423cfb5c4720eccb16f9b28f1d00 lib/Search/GIN/Extract.pm
+SHA1 cda87651b5316d0557e468f61ce9351fdbdb92b8 lib/Search/GIN/Extract/Attributes.pm
+SHA1 67c1e1d4fee0a6838f86d043d989485f2fa05738 lib/Search/GIN/Extract/Callback.pm
+SHA1 90521c6d349cfcde5db470b5bb393a32f38e1c06 lib/Search/GIN/Extract/Class.pm
+SHA1 2438ae28aa49b8edcc3d568c9a97b832678ac674 lib/Search/GIN/Extract/Delegate.pm
+SHA1 b381621d67ac5c6096fb1dabd633f24cdb077e40 lib/Search/GIN/Extract/Multiplex.pm
+SHA1 fd83343e00ca43a28e22dd7f7ede8945bd2b7712 lib/Search/GIN/Indexable.pm
+SHA1 b185cf4381480a69fe8477f52da6f6b7c6c9888f lib/Search/GIN/Keys.pm
+SHA1 51734880a75386764c4fee6c4cd57723e96055a9 lib/Search/GIN/Keys/Deep.pm
+SHA1 e349ca8a0c88828be3575866d60bbb813073e553 lib/Search/GIN/Keys/Expand.pm
+SHA1 dc5f2ba4c1cbaa8a8ef139f0884b6d6c57499ee6 lib/Search/GIN/Keys/Join.pm
+SHA1 4c5c7a3193e49af7e18b1bde20c0220d2acf97b2 lib/Search/GIN/Query.pm
+SHA1 37604335ba34b207138ba2662cd83bbcd6ae9ac6 lib/Search/GIN/Query/Attributes.pm
+SHA1 9abc0e08fd878464056d7460fc79355a6e3ddb3b lib/Search/GIN/Query/Class.pm
+SHA1 c9653766340d44e36eb43a4de14d1bf8b66a3990 lib/Search/GIN/Query/Manual.pm
+SHA1 f784022c9a2cb86e34ee0dba2f3c2acc37729af0 lib/Search/GIN/SelfIDs.pm
 SHA1 fdbf056605ebe56f7d39ab3edd8ffebfc980d52f t/00-compile.t
 SHA1 34985efc8abdc6708e03685b0e0d1cd2f44d3e8a t/attrs.t
 SHA1 de5d11d75733971d58ef65c1914a28c4447ef718 t/class.t
@@ -61,7 +60,7 @@ SHA1 80af19b3a05acc4a5f4edc0ccbfc09d16e9e81d2 t/rels.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkyLYwEACgkQepC8e2JS8ec9vgCgr/RaARZiEZXiQho/gHCHSkfz
-9KAAn1z1NgT64TTAKprgJCBBISwMZNh4
-=EnoZ
+iEYEARECAAYFAkyLZIsACgkQepC8e2JS8eeFEACfdIkcAwZiHV5iKyFSpf95eFOq
+vCwAoLRgL+iVsIp8SVVyxCLu9wHhW3h0
+=dSSa
 -----END PGP SIGNATURE-----
