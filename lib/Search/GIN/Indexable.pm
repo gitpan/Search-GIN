@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Indexable;
 BEGIN {
-  $Search::GIN::Indexable::VERSION = '0.06';
+  $Search::GIN::Indexable::VERSION = '0.07';
 }
 # ABSTRACT:
 
@@ -37,7 +37,7 @@ Search::GIN::Indexable - use Moose::Role;
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 

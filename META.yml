@@ -23,11 +23,11 @@ requires:
   Carp: 0
   Data::Stream::Bulk::Util: 0
   MRO::Compat: 0
-  Moose: 0
+  Moose: 0.89
   Moose::Role: 0
   Scalar::Util: 0
   Scope::Guard: 0
   Set::Object: 0
   Test::Deep::NoTest: 0
   namespace::clean: 0
-version: 0.06
+version: 0.07

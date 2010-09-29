@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Driver::Pack::UUID;
 BEGIN {
-  $Search::GIN::Driver::Pack::UUID::VERSION = '0.06';
+  $Search::GIN::Driver::Pack::UUID::VERSION = '0.07';
 }
 # ABSTRACT: UUID key packing
 
@@ -34,7 +34,7 @@ Search::GIN::Driver::Pack::UUID - UUID key packing
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 

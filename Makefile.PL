@@ -31,7 +31,7 @@ my %WriteMakefileArgs = (
     'Carp' => '0',
     'Data::Stream::Bulk::Util' => '0',
     'MRO::Compat' => '0',
-    'Moose' => '0',
+    'Moose' => '0.89',
     'Moose::Role' => '0',
     'Scalar::Util' => '0',
     'Scope::Guard' => '0',
@@ -39,7 +39,7 @@ my %WriteMakefileArgs = (
     'Test::Deep::NoTest' => '0',
     'namespace::clean' => '0'
   },
-  'VERSION' => '0.06',
+  'VERSION' => '0.07',
   'test' => {
     'TESTS' => 't/*.t'
   }

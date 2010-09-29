@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Query::Attributes;
 BEGIN {
-  $Search::GIN::Query::Attributes::VERSION = '0.06';
+  $Search::GIN::Query::Attributes::VERSION = '0.07';
 }
 # ABSTRACT: Create attributes-based GIN queries
 
@@ -94,7 +94,7 @@ Search::GIN::Query::Attributes - Create attributes-based GIN queries
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 

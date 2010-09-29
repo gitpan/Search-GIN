@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Extract::Class;
 BEGIN {
-  $Search::GIN::Extract::Class::VERSION = '0.06';
+  $Search::GIN::Extract::Class::VERSION = '0.07';
 }
 # ABSTRACT:
 
@@ -44,7 +44,7 @@ Search::GIN::Extract::Class - use Moose;
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 

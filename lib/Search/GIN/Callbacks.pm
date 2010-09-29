@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Callbacks;
 BEGIN {
-  $Search::GIN::Callbacks::VERSION = '0.06';
+  $Search::GIN::Callbacks::VERSION = '0.07';
 }
 # ABSTRACT: Provide callbacks
 
@@ -10,7 +10,9 @@ use Moose::Role;
 
 with qw(Search::GIN::Core);
 
-foreach my $cb qw(objects_to_ids extract_values extract_query compare_values consistent ids_to_objects) {
+foreach my $cb (
+    qw(objects_to_ids extract_values extract_query compare_values
+        consistent ids_to_objects) ) {
     has "${cb}_callback" => (
         isa => "CodeRef",
         is  => "rw",
@@ -32,7 +34,7 @@ Search::GIN::Callbacks - Provide callbacks
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 DESCRIPTION
 
