@@ -42,7 +42,7 @@ This role provides a few callbacks for L<Search::GIN>.
 
 =head1 AUTHOR
 
-  Yuval Kogman <nothingmuch@cpan.org>
+Yuval Kogman <nothingmuch@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

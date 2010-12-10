@@ -135,7 +135,7 @@ Attributes of the object you want to find.
 
 =head1 AUTHOR
 
-  Yuval Kogman <nothingmuch@cpan.org>
+Yuval Kogman <nothingmuch@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

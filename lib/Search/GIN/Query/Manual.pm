@@ -109,7 +109,7 @@ The keys and values to build the query for.
 
 =head1 AUTHOR
 
-  Yuval Kogman <nothingmuch@cpan.org>
+Yuval Kogman <nothingmuch@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

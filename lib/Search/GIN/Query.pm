@@ -36,7 +36,7 @@ version 0.07
 
 =head1 AUTHOR
 
-  Yuval Kogman <nothingmuch@cpan.org>
+Yuval Kogman <nothingmuch@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

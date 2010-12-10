@@ -156,7 +156,7 @@ The name of the package that the object is blessed into.
 
 =head1 AUTHOR
 
-  Yuval Kogman <nothingmuch@cpan.org>
+Yuval Kogman <nothingmuch@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

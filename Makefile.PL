@@ -37,6 +37,7 @@ my %WriteMakefileArgs = (
     'Scope::Guard' => '0',
     'Set::Object' => '0',
     'Test::Deep::NoTest' => '0',
+    'constant' => '0',
     'namespace::clean' => '0'
   },
   'VERSION' => '0.07',
