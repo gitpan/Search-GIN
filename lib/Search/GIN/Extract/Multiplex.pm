@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Extract::Multiplex;
 BEGIN {
-  $Search::GIN::Extract::Multiplex::VERSION = '0.07';
+  $Search::GIN::Extract::Multiplex::VERSION = '0.08';
 }
 # ABSTRACT:
 
@@ -37,7 +37,7 @@ Search::GIN::Extract::Multiplex - use Moose;
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 

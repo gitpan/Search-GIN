@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Driver;
 BEGIN {
-  $Search::GIN::Driver::VERSION = '0.07';
+  $Search::GIN::Driver::VERSION = '0.08';
 }
 # ABSTRACT:
 
@@ -93,7 +93,7 @@ Search::GIN::Driver - use Moose::Role;
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 

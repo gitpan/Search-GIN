@@ -2,7 +2,7 @@ NAME
     Search::GIN - Generalized Inverted Indexing
 
 VERSION
-    version 0.07
+    version 0.08
 
 DESCRIPTION
     Inverted Indexing is an indexing method that maps from content to

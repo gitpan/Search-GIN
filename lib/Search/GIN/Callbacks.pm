@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Callbacks;
 BEGIN {
-  $Search::GIN::Callbacks::VERSION = '0.07';
+  $Search::GIN::Callbacks::VERSION = '0.08';
 }
 # ABSTRACT: Provide callbacks
 
@@ -34,7 +34,7 @@ Search::GIN::Callbacks - Provide callbacks
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 DESCRIPTION
 

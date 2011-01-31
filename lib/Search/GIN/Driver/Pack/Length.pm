@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Driver::Pack::Length;
 BEGIN {
-  $Search::GIN::Driver::Pack::Length::VERSION = '0.07';
+  $Search::GIN::Driver::Pack::Length::VERSION = '0.08';
 }
 # ABSTRACT:
 
@@ -32,7 +32,7 @@ Search::GIN::Driver::Pack::Length - use Moose::Role;
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 

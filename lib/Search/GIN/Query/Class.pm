@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Query::Class;
 BEGIN {
-  $Search::GIN::Query::Class::VERSION = '0.07';
+  $Search::GIN::Query::Class::VERSION = '0.08';
 }
 # ABSTRACT: Create class-based GIN queries
 
@@ -105,7 +105,7 @@ Search::GIN::Query::Class - Create class-based GIN queries
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 

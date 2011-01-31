@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Core;
 BEGIN {
-  $Search::GIN::Core::VERSION = '0.07';
+  $Search::GIN::Core::VERSION = '0.08';
 }
 # ABSTRACT: Core of Search::GIN
 
@@ -80,7 +80,7 @@ Search::GIN::Core - Core of Search::GIN
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 AUTHOR
 

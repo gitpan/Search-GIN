@@ -4,7 +4,6 @@ MANIFEST
 META.yml
 Makefile.PL
 README
-SIGNATURE
 dist.ini
 lib/Search/GIN.pm
 lib/Search/GIN/Callbacks.pm

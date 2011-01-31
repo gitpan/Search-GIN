@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Extract::Attributes;
 BEGIN {
-  $Search::GIN::Extract::Attributes::VERSION = '0.07';
+  $Search::GIN::Extract::Attributes::VERSION = '0.08';
 }
 # ABSTRACT:
 
@@ -56,7 +56,7 @@ Search::GIN::Extract::Attributes - use Moose;
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 

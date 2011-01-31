@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Keys::Join;
 BEGIN {
-  $Search::GIN::Keys::Join::VERSION = '0.07';
+  $Search::GIN::Keys::Join::VERSION = '0.08';
 }
 # ABSTRACT:
 
@@ -31,7 +31,7 @@ Search::GIN::Keys::Join - use Moose::Role;
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 AUTHOR
 

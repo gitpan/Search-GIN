@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Keys::Deep;
 BEGIN {
-  $Search::GIN::Keys::Deep::VERSION = '0.07';
+  $Search::GIN::Keys::Deep::VERSION = '0.08';
 }
 # ABSTRACT:
 
@@ -33,7 +33,7 @@ Search::GIN::Keys::Deep - use Moose::Role;
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 

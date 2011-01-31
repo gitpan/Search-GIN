@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Query::Set;
 BEGIN {
-  $Search::GIN::Query::Set::VERSION = '0.07';
+  $Search::GIN::Query::Set::VERSION = '0.08';
 }
 # ABSTRACT: Create queries with set operations
 
@@ -67,7 +67,7 @@ Search::GIN::Query::Set - Create queries with set operations
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 
