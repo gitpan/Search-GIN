@@ -2,10 +2,10 @@ use strict;
 use warnings;
 package Search::GIN::Callbacks;
 BEGIN {
-  $Search::GIN::Callbacks::VERSION = '0.08';
+  $Search::GIN::Callbacks::AUTHORITY = 'cpan:NUFFIN';
 }
 # ABSTRACT: Provide callbacks
-
+$Search::GIN::Callbacks::VERSION = '0.09';
 use Moose::Role;
 
 with qw(Search::GIN::Core);
@@ -24,9 +24,11 @@ foreach my $cb (
 
 1;
 
-
+__END__
 
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -34,7 +36,7 @@ Search::GIN::Callbacks - Provide callbacks
 
 =head1 VERSION
 
-version 0.08
+version 0.09
 
 =head1 DESCRIPTION
 
@@ -42,17 +44,13 @@ This role provides a few callbacks for L<Search::GIN>.
 
 =head1 AUTHOR
 
-Yuval Kogman <nothingmuch@cpan.org>
+יובל קוג'מן (Yuval Kogman) <nothingmuch@woobling.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Yuval Kogman, Infinity Interactive.
+This software is copyright (c) 2008 by יובל קוג'מן (Yuval Kogman), Infinity Interactive.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
